@@ -5,7 +5,6 @@
 #define SPEED_OF_LIGHT 299792.458 
 
 int main() {
-    // 3. Data Initialization  ke 
     int spacecraftId = 8804;
     double distanceFromEarth = 149597870.7;
     float orbitalVelocity = 28.5456f;       
