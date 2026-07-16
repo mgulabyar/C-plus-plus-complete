@@ -1,4 +1,4 @@
-#include <iostream>  // 1. Input/Output stream 
+#include <iostream>  // 1. I 
 #include <iomanip>   
 
 #define SPEED_OF_LIGHT 299792.458 
