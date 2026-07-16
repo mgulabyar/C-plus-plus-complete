@@ -1,5 +1,5 @@
 #include <iostream>  // 1. Input/Output stream library (cout ke liye zaroori hai)
-#include <iomanip>   // 2. Output  library
+#include <iomanip>   
 
 #define SPEED_OF_LIGHT 299792.458 
 
