@@ -19,7 +19,6 @@ int main() {
     std::cout << std::left << std::setw(25) << "SPACECRAFT IDENTIFIER" << ": SPX-" << spacecraftId << "\n";
     std::cout << std::left << std::setw(25) << "ENGINE STATUS CODE"    << ": [" << engineStatusFlag << "]\n";
     
-    // std::setprecision decimal ke baad ke numbers ko control karta hai
     std::cout << std::left << std::setw(25) << "ORBITAL VELOCITY"     << ": " << std::setprecision(2) << orbitalVelocity << " km/s\n";
     std::cout << std::left << std::setw(25) << "TOTAL SECTOR DISTANCE" << ": " << std::setprecision(1) << distanceFromEarth << " km\n";
     
