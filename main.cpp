@@ -7,7 +7,7 @@
 int main() {
     // 3. Data Initialization (RAM mein variables ke liye space allocate ho rahi hai)
     int spacecraftId = 8804;
-    double distanceFromEarth = 149597870.7; // Earth se Sun ka distance (km)
+    double distanceFromEarth = 149597870.7; // Earth se Sun 
     float orbitalVelocity = 28.5456f;       
     char engineStatusFlag = 'A';            
     bool warpDriveReady = true;
