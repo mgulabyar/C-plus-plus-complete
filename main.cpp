@@ -15,7 +15,6 @@ int main() {
     // 4. Stream Configuration: Console ko batana ke decimals ko fixed rakhe
     std::cout << std::fixed; 
 
-    // 5. System Dashboard Print 
     std::cout << "==================================================\n";
     std::cout << "       DEEP SPACE TELEMETRY CORE INITIALIZED      \n";
     std::cout << "==================================================\n";
