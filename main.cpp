@@ -22,7 +22,6 @@ int main() {
     std::cout << std::left << std::setw(25) << "ORBITAL VELOCITY"     << ": " << std::setprecision(2) << orbitalVelocity << " km/s\n";
     std::cout << std::left << std::setw(25) << "TOTAL SECTOR DISTANCE" << ": " << std::setprecision(1) << distanceFromEarth << " km\n";
     
-    // Ternary operator check (Boolean state control)
     std::cout << std::left << std::setw(25) << "WARP ENGINE STATE"     << ": " << (warpDriveReady ? "ONLINE (1)" : "OFFLINE (0)") << "\n";
     std::cout << "--------------------------------------------------\n";
 
