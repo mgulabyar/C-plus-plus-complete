@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
-    // Core engine starting point
+    std::cout << "========================================\n";
+    std::cout << "   COMPILER AND ARCHITECTURE SUCCESS   \n";
+    std::cout << "========================================\n";
     return 0;
 }
