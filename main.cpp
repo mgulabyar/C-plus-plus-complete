@@ -25,7 +25,6 @@ int main() {
     std::cout << std::left << std::setw(25) << "WARP ENGINE STATE"     << ": " << (warpDriveReady ? "ONLINE (1)" : "OFFLINE (0)") << "\n";
     std::cout << "--------------------------------------------------\n";
 
-    // 6. Real Math/Physics Calculation using Macro
     double timeToTarget = distanceFromEarth / SPEED_OF_LIGHT;
     std::cout << "CRITICAL TELEMETRY CALCULATION:\n";
     std::cout << "Signal connection latency to Earth terminal:\n";
