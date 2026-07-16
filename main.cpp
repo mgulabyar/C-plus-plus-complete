@@ -31,10 +31,8 @@ int main() {
     std::cout << ">> " << std::setprecision(4) << timeToTarget << " Seconds\n";
     std::cout << "==================================================\n";
 
-    // 7. Hardware Kernel Memory Audit
-    // sizeof() variable ka exact size (Bytes) hardware level par check karta hai
     std::cout << "\n[KERNEL AUDIT] Memory Allocated on Win-64 Architecture:\n";
     std::cout << "ID: " << sizeof(spacecraftId) << " Bytes | Distance: " << sizeof(distanceFromEarth) << " Bytes | Status: Operational\n";
 
-    return 0; // Windows OS ko 0 (Success Sign) bhejna ke code bina crash chal gaya
+    return 0; 
 }
