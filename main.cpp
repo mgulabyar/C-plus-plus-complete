@@ -9,7 +9,7 @@ int main() {
     int spacecraftId = 8804;
     double distanceFromEarth = 149597870.7; // Earth se Sun ka distance (km)
     float orbitalVelocity = 28.5456f;       // Orbital speed (km/s)
-    char engineStatusFlag = 'A';            // 'A' for Active,
+    char engineStatusFlag = 'A';            
     bool warpDriveReady = true;
 
     std::cout << std::fixed; 
