@@ -12,7 +12,6 @@ int main() {
     char engineStatusFlag = 'A';            // 'A' for Active, 'E' for Error
     bool warpDriveReady = true;
 
-    // 4. Stream Configuration: Console ko batana ke decimals ko fixed rakhe
     std::cout << std::fixed; 
 
     std::cout << "==================================================\n";
