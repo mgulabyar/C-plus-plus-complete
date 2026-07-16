@@ -1,4 +1,4 @@
-#include <iostream>  // 1. I 
+#include <iostream>
 #include <iomanip>   
 
 #define SPEED_OF_LIGHT 299792.458 
@@ -16,7 +16,7 @@ int main() {
     std::cout << "       DEEP SPACE TELEMETRY CORE INITIALIZED      \n";
     std::cout << "==================================================\n";
 
-    // std::setw(25) text ko left side par alignment deta hai (Professional layout)
+    // std::setw(25) text ko left par alignment deta hai (Professional layout)
     std::cout << std::left << std::setw(25) << "SPACECRAFT IDENTIFIER" << ": SPX-" << spacecraftId << "\n";
     std::cout << std::left << std::setw(25) << "ENGINE STATUS CODE"    << ": [" << engineStatusFlag << "]\n";
     
