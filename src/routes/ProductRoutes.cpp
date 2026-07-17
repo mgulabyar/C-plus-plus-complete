@@ -78,7 +78,7 @@ void ProductRoutes::init(crow::SimpleApp& app) {
 
     // ------------------------------------
     // 4. DELETE OPERATION (DELETE: /api/v1/products/<int>)
-    // -------------------------------------------------------------------------
+    // ------------------------------------
     CROW_ROUTE(app, "/api/v1/products/<int>").methods(crow::HTTPMethod::DELETE)
     ([](int id){
         std::cout << "[MONGO] delete_one() pipeline matching parameter identification: " << id << "\n";
