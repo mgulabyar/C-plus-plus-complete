@@ -37,7 +37,7 @@ void ProductRoutes::init(crow::SimpleApp& app) {
 
     // ------------------------------------------------------------
     // 2. READ ALL OPERATION (GET: /api/v1/products)
-    // ------------------------------------------------------------
+    // -----------------------------------------
     CROW_ROUTE(app, "/api/v1/products")
     ([](){
         std::cout << "[MONGO] find({}) query triggered across active collection cluster\n";
