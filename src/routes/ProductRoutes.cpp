@@ -35,7 +35,7 @@ void ProductRoutes::init(crow::SimpleApp& app) {
         return crow::response(201, resJson);
     });
 
-    // ----------------------------
+    // -----------------
     // 2. READ ALL OPERATION (GET: /api/v1/products)
     // ----------------------------
     CROW_ROUTE(app, "/api/v1/products")
