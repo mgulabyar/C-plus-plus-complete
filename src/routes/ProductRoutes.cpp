@@ -76,7 +76,7 @@ void ProductRoutes::init(crow::SimpleApp& app) {
         return crow::response(404, "Product target ID referencing not found");
     });
 
-    // -------------------------------------------------------------------------
+    // ------------------------------------
     // 4. DELETE OPERATION (DELETE: /api/v1/products/<int>)
     // -------------------------------------------------------------------------
     CROW_ROUTE(app, "/api/v1/products/<int>").methods(crow::HTTPMethod::DELETE)
