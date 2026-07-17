@@ -11,7 +11,7 @@ std::vector<Product> globalProductDB = {
 
 void ProductRoutes::init(crow::SimpleApp& app) {
     
-    // -------------------------------------------------------------------------
+    // ---------------------------------------------------------
     // 1. CREATE OPERATION (POST: /api/v1/products)
     // -------------------------------------------------------------------------
     CROW_ROUTE(app, "/api/v1/products").methods(crow::HTTPMethod::POST)
