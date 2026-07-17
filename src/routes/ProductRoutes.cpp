@@ -16,7 +16,7 @@ void ProductRoutes::init(crow::SimpleApp& app) {
     // ---------------------------------------------------------
     CROW_ROUTE(app, "/api/v1/products").methods(crow::HTTPMethod::POST)
     ([](const crow::request& req){
-        auto body = crow::json::load(req.body); // req.body parse karna
+        auto body = crow::json::load(req.body); // req.body parse
         if (!body) return crow::response(400, "Invalid JSON template payload");
 
         Product prod;
