@@ -25,7 +25,7 @@ void ProductRoutes::init(crow::SimpleApp& app) {
         prod.price = body["price"].d();
         prod.stock = body["stock"].i();
 
-        // MongoDB Database Insert Action 
+        // MongoDB Database Insert Action Simulation
         globalProductDB.push_back(prod);
         std::cout << "[MONGO] insert_one() executed successfully inside products collection\n";
 
